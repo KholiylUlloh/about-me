@@ -1,12 +1,17 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import Wobble from "react-reveal/Wobble";
 import { Link as Scroll } from "react-scroll";
 import { Body } from "./style";
 const Navbar = () => {
   return (
     <Body>
-      <Fade top>
-        <nav className="navigation">
+      <Wobble bottom>
+        <div className="main">
+          <h2 style={{ color: "white" }}>
+            My Website will be optimized soon...
+          </h2>
+        </div>
+        {/* <nav className="navigation">
           <ul className="ul">
             <li>
               <Scroll
@@ -52,8 +57,8 @@ const Navbar = () => {
               </Scroll>
             </li>
           </ul>
-        </nav>
-      </Fade>
+        </nav> */}
+      </Wobble>
     </Body>
   );
 };

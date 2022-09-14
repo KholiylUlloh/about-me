@@ -55,4 +55,12 @@ export const Container = styled.div`
     cursor: pointer;
     width: 80%;
   }
+  .resume {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `;

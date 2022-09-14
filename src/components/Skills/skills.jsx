@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade, Flip, LightSpeed } from "react-reveal";
 import { Container } from "./style";
 import indicator1 from "../../assets/indicator.png";
 import indicator2 from "../../assets/indicator2.png";
@@ -9,10 +9,10 @@ const Skills = () => {
     <Container>
       <Fade right></Fade>
       <div className="container-2">
-        <Fade right>
+        <Flip right>
           <h1 className="heading-2">My Abilities:</h1>
-        </Fade>
-        <Fade left>
+        </Flip>
+        <LightSpeed left>
           <div className="title">
             <h3>HTML5</h3>
           </div>
@@ -20,7 +20,7 @@ const Skills = () => {
             <img src={indicator1} alt="html" width={"80%"} height={30} />
             <h3 className="level">Advanced</h3>
           </div>
-        </Fade>
+        </LightSpeed>
         <Fade right>
           <div className="title">
             <h3>CSS3</h3>
@@ -30,7 +30,7 @@ const Skills = () => {
             <img src={indicator1} alt="html" width={"80%"} height={30} />
           </div>
         </Fade>
-        <Fade right>
+        <LightSpeed left>
           <div className="title">
             <h3>Tailwind Css</h3>
           </div>
@@ -38,8 +38,8 @@ const Skills = () => {
             <img src={indicator2} alt="html" width={"80%"} height={30} />
             <h3 className="level">Regular</h3>
           </div>
-        </Fade>
-        <Fade left>
+        </LightSpeed>
+        <Fade right>
           <div className="title">
             <h3>JavaScript ES6+</h3>
           </div>
@@ -48,7 +48,7 @@ const Skills = () => {
             <img src={indicator1} alt="html" width={"80%"} height={30} />
           </div>
         </Fade>
-        <Fade right>
+        <LightSpeed left>
           <div className="title">
             <h3>React JS</h3>
           </div>
@@ -56,8 +56,8 @@ const Skills = () => {
             <h3 className="level">Advanced</h3>
             <img src={indicator1} alt="html" width={"80%"} height={30} />
           </div>
-        </Fade>
-        <Fade right>
+        </LightSpeed>
+        <Fade bottom>
           <div className="title">
             <h3>Next JS</h3>
           </div>
@@ -66,7 +66,7 @@ const Skills = () => {
             <h3 className="level">Regular</h3>
           </div>
         </Fade>
-        <Fade left>
+        <Fade top>
           <div className="title">
             <h3>Node/Express JS</h3>
           </div>

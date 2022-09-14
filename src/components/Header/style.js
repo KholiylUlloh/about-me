@@ -45,6 +45,7 @@ export const Container = styled.div`
 
     @media screen and (max-width: 728px) {
       font-size: 3rem;
+      padding: 0 1rem;
     }
   }
   .pic {

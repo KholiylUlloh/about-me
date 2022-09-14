@@ -11,10 +11,13 @@ const Body = styled.div`
   position: fixed;
   top: 0;
   @media screen and (max-width: 728px) {
-    width: 0;
+    width: 100%;
     margin: 0;
     padding: 0;
     background: rgba(55, 105, 202, 0.14);
+    .main {
+      display: none;
+    }
   }
   .navigation {
     display: flex;

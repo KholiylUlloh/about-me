@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 import Navbar from "../Navbar/navbar";
 import { Container } from "./style";
 import { useState } from "react";
+import Tada from "react-reveal/Tada";
 
 const Header = () => {
   const [day, setDay] = useState("");
@@ -51,13 +52,13 @@ const Header = () => {
       <Navbar />
       <div className="container">
         <div className="text">
-          <Fade bottom>
-            <h1>
+          <Tada bottom>
+            <h1 className="mainText">
               Happy {day}
               <br />
               I'm Adam a Frontend developer
             </h1>
-          </Fade>
+          </Tada>
 
           <Fade bottom>
             <div className="icons">
