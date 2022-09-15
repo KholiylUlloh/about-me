@@ -1,6 +1,6 @@
 import React from "react";
 import Wobble from "react-reveal/Wobble";
-import { Link as Scroll } from "react-scroll";
+// import { Link as Scroll } from "react-scroll";
 import { Body } from "./style";
 const Navbar = () => {
   return (

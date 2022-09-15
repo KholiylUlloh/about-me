@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BackgroundAnimation from "./components/Background/backgroundAnimation";
 import Container from "./components/Generic/generic";
-// import Container from "./components/Container";
+import Loader from "./components/Loader";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 1000);
   }, []);
 
   return !loading ? (
@@ -18,17 +18,7 @@ function App() {
       <Container />
     </div>
   ) : (
-    <p
-      style={{
-        textAlign: "center",
-        verticalAlign: "center",
-        lineHeight: "750px",
-        fontFamily: "Optima",
-        fontSize: "30px",
-      }}
-    >
-      Loading...
-    </p>
+    <Loader />
   );
 }
 
