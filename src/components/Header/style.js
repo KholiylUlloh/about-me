@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   justify-content: space-around;
   flex-direction: column;
   object-fit: contain;
-  background-size: cover;
-  background-position: center;
-  background-color: #0f1624;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-color: #0f1624; */
+  position: absolute;
+  top: 20%;
   margin: 0;
   @media screen and (max-width: 728px) {
     background-attachment: fixed;
@@ -65,11 +67,11 @@ export const Container = styled.div`
     gap: 2rem;
     width: 50%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 10px;
 
     @media screen and (max-width: 728px) {
-      margin-left: 30px;
+      /* margin-left: 30px; */
       width: 80%;
     }
   }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
+import BackgroundAnimation from "./components/Background/backgroundAnimation";
 import Container from "./components/Generic/generic";
-import Header from "./components/Header/Header";
 // import Container from "./components/Container";
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
 
   return !loading ? (
     <div>
-      <Header />
-      {/* <BgAnimation /> */}
+      <BackgroundAnimation />
       <Container />
     </div>
   ) : (
