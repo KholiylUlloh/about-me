@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
-import { Link as Scroll } from "react-scroll";
+// import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
+// import { Link as Scroll } from "react-scroll";
 import { Fade } from "react-reveal";
 import Navbar from "../Navbar/navbar";
 import { Container } from "./style";

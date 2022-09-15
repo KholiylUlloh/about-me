@@ -1,7 +1,5 @@
 import React from "react";
 import About from "../About/About";
-// import Resume from "./Resume";
-// import Certificates from "./Certificates";
 
 const Container = () => {
   return (
@@ -15,8 +13,6 @@ const Container = () => {
       }}
     >
       <About />
-      {/* <Resume /> */}
-      {/* <Certificates /> */}
     </div>
   );
 };
