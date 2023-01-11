@@ -10,7 +10,7 @@ const Skills = () => {
       <Fade right></Fade>
       <div className="container-2">
         <Flip right>
-          <h1 className="heading-2">My Abilities:</h1>
+          <h1 className="heading-2">My Techs:</h1>
         </Flip>
         <LightSpeed left>
           <div className="title">
@@ -51,6 +51,15 @@ const Skills = () => {
         <LightSpeed left>
           <div className="title">
             <h3>React JS</h3>
+          </div>
+          <div className="indicator">
+            <h3 className="level">Advanced</h3>
+            <img src={indicator1} alt="html" width={"80%"} height={30} />
+          </div>
+        </LightSpeed>
+        <LightSpeed right>
+          <div className="title">
+            <h3>Vue JS</h3>
           </div>
           <div className="indicator">
             <h3 className="level">Advanced</h3>

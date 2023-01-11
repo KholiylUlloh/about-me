@@ -2,7 +2,7 @@ import React from "react";
 import Skills from "../Skills/skills";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-import { Fade, Zoom, Rotate, Bounce } from "react-reveal";
+import { Fade, Zoom, Bounce, Slide } from "react-reveal";
 import { Container } from "./style";
 import { BsDownload } from "react-icons/bs";
 
@@ -11,7 +11,7 @@ const About = () => {
     <Container id="about">
       <div className="container">
         <div className="content">
-          <Rotate left>
+          <Slide right>
             <h1 className="heading1">About me</h1>
             <p>
               • Self-taught programmer with hands-on experience in web
@@ -28,14 +28,14 @@ const About = () => {
               working with both back-end and front-end engineering team and
               developing complex systems using variety of modern software
             </p>
-          </Rotate>
+          </Slide>
           <Bounce left>
             <h1 className="heading2">Contact details</h1>
             <div className="contact-details">
               <p>KholiylUlloh Ahmadjanov</p>
-              <p>Current Address: South Korea</p>
+              <p>Current Address: Andijan, Uzbekistan</p>
               <p>Origin: From Uzbekistan</p>
-              <a href="tel:01057109669">Phone number: 010 5710 9669</a>
+              <a href="tel:998902036474">Phone number: 998902036474</a>
             </div>
           </Bounce>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
         </Zoom>
         <Fade right>
           <div className="icons">
-            <a href="mailto:codevme@gmail.com" target="blank">
+            <a href="mailto:ahmadjonovdev@gmail.com" target="blank">
               <EmailIcon
                 style={{
                   width: "30px",
